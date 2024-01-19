@@ -9,7 +9,7 @@ int main(){
 
     int a, b, f, x;
 
-    cout << "Ââåäèòå öèôðû a, b, f : " << endl;
+    cout << "Введите цифры a, b, f : " << endl;
     cout << "a = ";
     cin >> a;
     cout << "b = ";
@@ -17,7 +17,7 @@ int main(){
     cout << "f = ";
     cin >> f;
 
-    cout << "Âû÷èñëÿåì ïî ôîðìóëå: x = (a + b - f / a) + f * a * a - (a + b)" << endl;
+    cout << "Вычисляем по формуле: x = (a + b - f / a) + f * a * a - (a + b)" << endl;
     x = (a + b - f / a) + f * a * a - (a + b);
     cout << "x = " << x;
 
