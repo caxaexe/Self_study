@@ -7,7 +7,7 @@ using namespace std;
 int main(){
     cout << "\t\tУвеличение переменных с оператором if\n\n";
     
-    int first, second, third, nfirst, nsecond, nthird;
+    int first, second, third;
     cout << "Введите первое число : ";
     cin >> first;
     cout << "Введите второе число : ";
